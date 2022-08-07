@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_menu_menu_links",
+  "info": {
+    "displayName": "menu_link",
+    "icon": "code-branch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link_text": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255,
+      "minLength": 3
+    },
+    "link_url": {
+      "type": "text",
+      "required": true
+    },
+    "open_in_new_tab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
